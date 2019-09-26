@@ -71,7 +71,22 @@ h1{
 
 .contacts>h2{
     position: relative;
-    top:-400px;
-    color:white;
+    top:-420px;
+    color:black;
     text-align: center;
 }
+
+.overlay {
+    position: absolute; 
+    top: -400px; 
+    background: rgb(0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    /* width: 100%; */
+    /* transition: .5s ease; */
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
