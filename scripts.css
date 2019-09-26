@@ -42,7 +42,18 @@ h1{
     margin-top: 150px;
 }
 
-.container>h1{
+.cont>h1{
     margin-top: -100px;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.row{
+    text-align: center;
+}
+
+.port>h1{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
 }
