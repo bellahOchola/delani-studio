@@ -25,3 +25,8 @@ img{
 h1{
     font-size:4em;
 }
+
+.about{
+    margin-top: -470px;
+    text-align: center;
+}
