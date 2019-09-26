@@ -55,7 +55,7 @@ h1{
 .port>h1{
     margin-top: 70px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .broad>img{
@@ -63,4 +63,15 @@ h1{
     margin-bottom: 20px;
     width:23%;
     margin-left: 10px;
+}
+
+.back{
+    margin-top: 40px;
+}
+
+.contacts>h2{
+    position: relative;
+    top:-400px;
+    color:white;
+    text-align: center;
 }
