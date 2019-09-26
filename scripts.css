@@ -90,3 +90,9 @@ h1{
     padding: 20px;
     text-align: center;
   }
+
+  .icons{
+      display: flex;
+      justify-content: center;
+      margin-top: 70px;
+  }
