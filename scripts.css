@@ -84,17 +84,20 @@ h1{
 #adjust{
     width:25%;
     height:40px;
-    /* margin-top:20px; */
 }
 
 #button{
-    background-color: rgb(119, 162, 199);
+    background-color: aqua;
     color:white;
     border:none;
     height:40px;
-    margin-top:-30px;
+    margin-top:-40px;
     width:90px;
-    margin-left: 80px;
+    margin-left: 550px;
+}
+
+#button:hover{
+    background-color: blue;
 }
 
 
@@ -107,4 +110,8 @@ h1{
 .stud{
     text-align: center;
     margin-top: 50px;
+}
+
+.para{
+    display: none;
 }
