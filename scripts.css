@@ -84,6 +84,17 @@ h1{
 #adjust{
     width:25%;
     height:40px;
+    /* margin-top:20px; */
+}
+
+#button{
+    background-color: rgb(119, 162, 199);
+    color:white;
+    border:none;
+    height:40px;
+    margin-top:-30px;
+    width:90px;
+    margin-left: 80px;
 }
 
 
