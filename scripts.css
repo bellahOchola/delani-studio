@@ -1,3 +1,5 @@
+
+
 img{
     max-width: 100%;
     height:auto;
@@ -76,7 +78,7 @@ h1{
     bottom:5px;
     color:navy;
     font-size: 20px;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius:5px;
     width:40%;
     height:15%;
@@ -127,6 +129,10 @@ h1{
     margin-top: 70px;
 }
 
+.icons>img{
+    margin-left: 5px;
+}
+
 .stud{
     text-align: center;
     margin-top: 50px;
@@ -139,7 +145,7 @@ h1{
 .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
     position: absolute; 
     background: white;
-    color:blue; 
+    color:black; 
     opacity:0.5;
     box-sizing: border-box;
     z-index:1;
