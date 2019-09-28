@@ -1,4 +1,7 @@
-
+body{
+    background-color: #f0f8ff;
+    font-family: 'Playfair Display', serif;
+}
 
 img{
     max-width: 100%;
@@ -25,7 +28,7 @@ img{
 }
 
 h1{
-    font-size:4em;
+    font-size:3em;
 }
 
 .about{
@@ -91,6 +94,8 @@ h1{
 
 .contacts{
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+    height: auto;
+    background-size: cover;
     text-align: center;
     color:white;
     margin-top: 50px;
@@ -151,8 +156,34 @@ h1{
     width: 100%;
     display: none;
   }
-  .ov:hover{
-    opacity: 0.9;
-    margin-bottom:0;
-  }
+
+.ov:hover{
+opacity: 0.9;
+margin-bottom:0;
+}
+
+#mc_embed_signup{
+font:14px Helvetica,Arial,sans-serif;
+margin-left: 200px;
+width:60%;
+}
+
+.mc-field-group> input{
+background-color:transparent;
+}
+
+.align{
+    display: flex;
+}
+
+
+.align #mce-EMAIL{
+    margin-left: 10px;
+}
+
+
+#mce-MMERGE2{
+    height:250px;
+    width:70%;
+}
   
