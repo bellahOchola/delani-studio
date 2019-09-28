@@ -3,7 +3,7 @@ $(".appear").click (function(){
 });
 
 $(document).ready(function(){
-    $(".ov1").mouseover(function(){
+    $("#image1").mouseover(function(){
     $(".text1").show();
     
     }).mouseout(function(){
