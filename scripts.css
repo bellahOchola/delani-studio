@@ -59,22 +59,15 @@ h1{
     margin-bottom: 30px;
 }
 
-.broad{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-}
-
 .ov{
     display: flex;
     flex-direction: column;
 }
 
 .ov img{
-    width:90%;
      margin-left: 20px;
-     margin-right: 20px;
-}
+     /* margin-right: 20px;  */
+} 
 
 
 .ov p{
@@ -84,8 +77,10 @@ h1{
     top:-50px;
     color:navy;
     font-size: 30px;
-    border: 1px solid black;
+    border: 3px solid grey;
+    border-radius:5px;
     width:30%;
+    height:20%;
     margin-left: 150px;
 }
 
@@ -144,7 +139,7 @@ h1{
 .text1{
     
     position: absolute; 
-    background: rgb(0, 0, 0);
+    background: white;
     color:blue; 
     opacity:0.5;
     box-sizing: border-box;
@@ -153,6 +148,6 @@ h1{
     display: none;
   }
   .ov:hover{
-    opacity: 0.6;
+    opacity: 0.9;
   }
   
