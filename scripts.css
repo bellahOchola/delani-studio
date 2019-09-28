@@ -66,22 +66,22 @@ h1{
 
 .ov img{
      margin-left: 20px;
-     /* margin-right: 20px;  */
+     margin-bottom: 20px;
 } 
 
 
 .ov p{
     text-align: center;
-    position: relative;
-    justify-content: center;
-    top:-50px;
+    position: absolute;
+    bottom:5px;
     color:navy;
-    font-size: 30px;
-    border: 3px solid grey;
+    font-size: 20px;
+    border: 3px solid black;
     border-radius:5px;
-    width:30%;
-    height:20%;
-    margin-left: 150px;
+    width:40%;
+    height:15%;
+    margin-left: 100px;
+    /* padding: 10px; */
 }
 
 .back{
@@ -132,12 +132,11 @@ h1{
     margin-top: 50px;
 }
 
-.para{
+.para, .eng, .iter{
     display: none;
 }
 
-.text1{
-    
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
     position: absolute; 
     background: white;
     color:blue; 
@@ -149,5 +148,6 @@ h1{
   }
   .ov:hover{
     opacity: 0.9;
+    margin-bottom:0;
   }
   
