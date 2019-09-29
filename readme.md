@@ -17,9 +17,13 @@ https://github.com/bellahOchola/delani-studio
 * user lands on the firstpage which gives an introductory message
 * the about us section contains information about the studio at large, what goes on behind the scenes.
 * the next section describes how the team goes about in service delivery.
-* what we do part explains all that the studio tackles in a nutshell, they design,develop and manage products for their clients.
+* what we do part explains all that the studio tackles in a nutshell, they design,develop and manage  products for their clients.
 * portfolio consists of different projects whose names appear on hover.
 * the last section is the contact part that has a form which the user fills their details and also social meadia links incase the user wants to follow or for get more information
+####On submission of form:
+|#####Behaviour|#####input|#####output|
+|enter your name |Bellah Ochola|      |
+
 ## Technologies Used
 * HTML- which has been used to create the website skeleton.
 * CSS - has given the website the present styles they have like use of flexbox and colors.
