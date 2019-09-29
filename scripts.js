@@ -90,3 +90,20 @@ $(document).ready(function(){
         $(".text8").hide();
     });
 });
+
+$(document).ready(function(){
+    $("form#mc-embedded-subscribe-form").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#mce-FNAME").val();
+      var email = $("input#mce-EMAIL").val();
+      var message = $("input#mce-MMERGE2").val();
+      if ($("input#mce-FNAME").val() && $("input#mce-EMAIL").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+  
+  });

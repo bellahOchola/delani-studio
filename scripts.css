@@ -164,8 +164,7 @@ margin-bottom:0;
 
 #mc_embed_signup{
 font:14px Helvetica,Arial,sans-serif;
-margin-left: 200px;
-width:60%;
+margin-left: 300px;
 }
 
 .mc-field-group> input{
@@ -184,6 +183,7 @@ background-color:transparent;
 
 #mce-MMERGE2{
     height:250px;
-    width:70%;
+    width:100%;
+    background: transparent;
 }
   
