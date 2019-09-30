@@ -1,12 +1,15 @@
-$(".appear").click (function(){
+$(".main").click (function(){
+    $(".appear").toggle();
     $(".para").toggle();
 });
 
-$(".dev").click (function(){
+$(".tog").click (function(){
+    $(".dev").toggle();
     $(".eng").toggle();
 });
 
-$(".mng").click (function(){
+$(".rec").click (function(){
+    $(".mng").toggle();
     $(".iter").toggle();
 });
 
